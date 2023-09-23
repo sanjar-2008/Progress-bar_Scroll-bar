@@ -8,7 +8,12 @@ const CircleBar = ({ percentage, circleWidth }) => {
     return (
         <div className={'circle'}>
             <svg width={circleWidth} height={circleWidth} viewBox={`0 0 ${circleWidth} ${circleWidth}`}>
-                <circle cx={circleWidth / 2} cy={circleWidth / 2} strokeWidth={'15px'} r={radius} className={'circle-background'} />
+                <circle
+                    cx={circleWidth / 2}
+                    cy={circleWidth / 2}
+                    strokeWidth={'15px'}
+                    r={radius}
+                    className={'circle-background'} />
                 <circle
                     cx={circleWidth / 2}
                     cy={circleWidth / 2}

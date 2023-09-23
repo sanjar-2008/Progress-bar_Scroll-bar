@@ -12,7 +12,6 @@ const App = () => {
         const styleNow = parseFloat(style) * (1 - parseFloat(percentage / 100));
         bar.style.strokeDashoffset = styleNow;
     }, [percentage]);
-
     return (
         <div className={'bar'}>
             <h1>Homework (useState, useEffect, useRef)</h1>
